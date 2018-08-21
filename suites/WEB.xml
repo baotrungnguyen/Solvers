@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="demo suite" parallel="methods" thread-count="1" data-provider-thread-count="1">
+	<listeners>
+		<listener class-name="automationCore.TestReport"/>
+		<listener class-name="automationCore.TestCreate"/>
+	</listeners>
+	<test name="demo suite">
+		<parameter name="waitTime" value="20"/>
+		<parameter name="url" value="https://calculatorcloud.com.au"/>
+		<parameter name="url" value="https://solvers.com.au/"/>
+		<parameter name="url_temple_mail" value="https://temp-mail.org/vi/option/refresh/"/>
+		<parameter name="url_Guru_Bank" value="http://www.demo.guru99.com/v4/"/>
+		<parameter name="emailfortest" value="test@test.com"/>
+		<parameter name="username" value="nbtrung"/>
+		<parameter name="password" value="tcvn1234@"/>
+		<classes>
+			<class name= "support_group.test"></class>
+		</classes>
+	</test>
+</suite>

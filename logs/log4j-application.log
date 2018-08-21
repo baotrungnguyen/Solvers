@@ -1,0 +1,866 @@
+2018-28-05 14:32:47 INFO  MonteRecorder:39 - Recording started
+2018-28-05 14:32:48 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\shouldFailAndCreateRecordWithTestName_recording_2018_28_05_14_32_48.avi
+2018-28-05 14:32:48 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-28-05 14:32:48 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\shouldFailAndCreateRecordWithTestName_recording_2018_28_05_14_32_48.avi
+2018-28-05 14:32:48 INFO  MonteRecorder:39 - Recording started
+2018-28-05 14:32:49 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\second_test_recording_2018_28_05_14_32_49.avi
+2018-28-05 14:32:49 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-28-05 14:32:49 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\second_test_recording_2018_28_05_14_32_49.avi
+2018-28-05 14:44:43 INFO  FFMpegRecorder:26 - Trying to execute the following command: [ffmpeg, -y, -video_size, 1920x1080, -f, gdigrab, -i, :1.0+10,20, -an, -framerate, 24, -pix_fmt, yuv444p, D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\temporary_recording_2018_28_05_14_44_43.mp4]
+2018-28-05 14:44:43 WARN  FFMpegRecorder:34 - Unable to execute command: java.io.IOException: Could not execute [ffmpeg, -y, -video_size, 1920x1080, -f, gdigrab, -i, :1.0+10,20, -an, -framerate, 24, -pix_fmt, yuv444p, D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\temporary_recording_2018_28_05_14_44_43.mp4].
+2018-28-05 14:44:44 INFO  FFMpegRecorder:40 - Trying to execute the following command: [cmd, /c, for /f "tokens=2" %i in ('tasklist ^| findstr "ffmpeg"') do @echo %i]
+2018-28-05 14:44:51 INFO  FFMpegRecorder:40 - Trying to execute the following command: [SendSignalCtrlC.exe, ]
+2018-28-05 14:44:51 WARN  FFMpegRecorder:48 - Unable to execute command: java.io.IOException: Could not execute [SendSignalCtrlC.exe, ""].
+2018-28-05 14:44:51 INFO  FFMpegRecorder:40 - Trying to execute the following command: [cmd, /c, for /f "tokens=2" %i in ('tasklist ^| findstr "ffmpeg"') do @echo %i]
+2018-28-05 14:44:57 INFO  FFMpegRecorder:40 - Trying to execute the following command: [SendSignalCtrlC.exe, ]
+2018-28-05 14:44:57 WARN  FFMpegRecorder:48 - Unable to execute command: java.io.IOException: Could not execute [SendSignalCtrlC.exe, ""].
+2018-28-05 14:54:14 INFO  FFMpegRecorder:26 - Trying to execute the following command: [ffmpeg, -y, -video_size, 1920x1080, -f, gdigrab, -i, :1.0+10,20, -an, -framerate, 24, -pix_fmt, yuv444p, D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\temporary_recording_2018_28_05_14_54_14.mp4]
+2018-28-05 14:54:14 WARN  FFMpegRecorder:34 - Unable to execute command: java.io.IOException: Could not execute [ffmpeg, -y, -video_size, 1920x1080, -f, gdigrab, -i, :1.0+10,20, -an, -framerate, 24, -pix_fmt, yuv444p, D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\temporary_recording_2018_28_05_14_54_14.mp4].
+2018-28-05 14:54:15 INFO  FFMpegRecorder:40 - Trying to execute the following command: [cmd, /c, for /f "tokens=2" %i in ('tasklist ^| findstr "ffmpeg"') do @echo %i]
+2018-28-05 14:54:21 INFO  FFMpegRecorder:40 - Trying to execute the following command: [SendSignalCtrlC.exe, ]
+2018-28-05 14:54:21 WARN  FFMpegRecorder:48 - Unable to execute command: java.io.IOException: Could not execute [SendSignalCtrlC.exe, ""].
+2018-28-05 14:54:21 INFO  FFMpegRecorder:40 - Trying to execute the following command: [cmd, /c, for /f "tokens=2" %i in ('tasklist ^| findstr "ffmpeg"') do @echo %i]
+2018-28-05 14:54:26 INFO  FFMpegRecorder:40 - Trying to execute the following command: [SendSignalCtrlC.exe, ]
+2018-28-05 14:54:26 WARN  FFMpegRecorder:48 - Unable to execute command: java.io.IOException: Could not execute [SendSignalCtrlC.exe, ""].
+2018-28-05 14:57:27 INFO  FFMpegRecorder:26 - Trying to execute the following command: [ffmpeg, -y, -video_size, 1920x1080, -f, gdigrab, -i, :1.0+10,20, -an, -framerate, 24, -pix_fmt, yuv444p, D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\temporary_recording_2018_28_05_14_57_27.mp4]
+2018-28-05 14:57:28 WARN  FFMpegRecorder:34 - Unable to execute command: java.io.IOException: Could not execute [ffmpeg, -y, -video_size, 1920x1080, -f, gdigrab, -i, :1.0+10,20, -an, -framerate, 24, -pix_fmt, yuv444p, D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\temporary_recording_2018_28_05_14_57_27.mp4].
+2018-28-05 14:57:29 INFO  FFMpegRecorder:40 - Trying to execute the following command: [cmd, /c, for /f "tokens=2" %i in ('tasklist ^| findstr "ffmpeg"') do @echo %i]
+2018-28-05 14:57:34 INFO  FFMpegRecorder:40 - Trying to execute the following command: [SendSignalCtrlC.exe, ]
+2018-28-05 14:57:34 WARN  FFMpegRecorder:48 - Unable to execute command: java.io.IOException: Could not execute [SendSignalCtrlC.exe, ""].
+2018-28-05 14:57:34 INFO  FFMpegRecorder:40 - Trying to execute the following command: [cmd, /c, for /f "tokens=2" %i in ('tasklist ^| findstr "ffmpeg"') do @echo %i]
+2018-28-05 14:57:39 INFO  FFMpegRecorder:40 - Trying to execute the following command: [SendSignalCtrlC.exe, ]
+2018-28-05 14:57:39 WARN  FFMpegRecorder:48 - Unable to execute command: java.io.IOException: Could not execute [SendSignalCtrlC.exe, ""].
+2018-28-05 15:01:46 INFO  FFMpegRecorder:26 - Trying to execute the following command: [ffmpeg, -y, -video_size, 1920x1080, -f, gdigrab, -i, :1.0+10,20, -an, -framerate, 1, -pix_fmt, yuv444p, D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\temporary_recording_2018_28_05_15_01_46.mp4]
+2018-28-05 15:01:46 WARN  FFMpegRecorder:34 - Unable to execute command: java.io.IOException: Could not execute [ffmpeg, -y, -video_size, 1920x1080, -f, gdigrab, -i, :1.0+10,20, -an, -framerate, 1, -pix_fmt, yuv444p, D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\temporary_recording_2018_28_05_15_01_46.mp4].
+2018-28-05 15:01:47 INFO  FFMpegRecorder:40 - Trying to execute the following command: [cmd, /c, for /f "tokens=2" %i in ('tasklist ^| findstr "ffmpeg"') do @echo %i]
+2018-28-05 15:01:53 INFO  FFMpegRecorder:40 - Trying to execute the following command: [SendSignalCtrlC.exe, ]
+2018-28-05 15:01:53 WARN  FFMpegRecorder:48 - Unable to execute command: java.io.IOException: Could not execute [SendSignalCtrlC.exe, ""].
+2018-28-05 15:01:53 INFO  FFMpegRecorder:40 - Trying to execute the following command: [cmd, /c, for /f "tokens=2" %i in ('tasklist ^| findstr "ffmpeg"') do @echo %i]
+2018-28-05 15:01:58 INFO  FFMpegRecorder:40 - Trying to execute the following command: [SendSignalCtrlC.exe, ]
+2018-28-05 15:01:58 WARN  FFMpegRecorder:48 - Unable to execute command: java.io.IOException: Could not execute [SendSignalCtrlC.exe, ""].
+2018-28-05 15:13:12 INFO  MonteRecorder:39 - Recording started
+2018-28-05 15:13:13 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\shouldFailAndCreateRecordWithTestName_recording_2018_28_05_15_13_13.avi
+2018-28-05 15:13:13 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-28-05 15:13:13 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\shouldFailAndCreateRecordWithTestName_recording_2018_28_05_15_13_13.avi
+2018-28-05 15:13:13 INFO  MonteRecorder:39 - Recording started
+2018-28-05 15:13:14 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\second_test_recording_2018_28_05_15_13_14.avi
+2018-28-05 15:13:14 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-28-05 15:13:14 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\second_test_recording_2018_28_05_15_13_14.avi
+2018-28-05 15:14:45 INFO  MonteRecorder:39 - Recording started
+2018-28-05 15:14:55 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\shouldFailAndCreateRecordWithTestName_recording_2018_28_05_15_14_55.avi
+2018-28-05 15:14:55 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-28-05 15:14:55 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\shouldFailAndCreateRecordWithTestName_recording_2018_28_05_15_14_55.avi
+2018-28-05 15:14:55 INFO  MonteRecorder:39 - Recording started
+2018-28-05 15:15:05 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\second_test_recording_2018_28_05_15_15_05.avi
+2018-28-05 15:15:05 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-28-05 15:15:05 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\second_test_recording_2018_28_05_15_15_05.avi
+2018-28-05 15:19:46 INFO  MonteRecorder:39 - Recording started
+2018-28-05 15:19:56 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\shouldFailAndCreateRecordWithTestName_recording_2018_28_05_15_19_56.avi
+2018-28-05 15:19:56 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-28-05 15:19:56 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\shouldFailAndCreateRecordWithTestName_recording_2018_28_05_15_19_56.avi
+2018-28-05 15:19:56 INFO  MonteRecorder:39 - Recording started
+2018-28-05 15:20:06 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\second_test_recording_2018_28_05_15_20_06.avi
+2018-28-05 15:20:06 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-28-05 15:20:06 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\second_test_recording_2018_28_05_15_20_06.avi
+2018-28-05 15:21:29 INFO  MonteRecorder:39 - Recording started
+2018-28-05 15:21:39 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\shouldFailAndCreateRecordWithTestName_recording_2018_28_05_15_21_39.avi
+2018-28-05 15:21:39 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-28-05 15:21:39 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\shouldFailAndCreateRecordWithTestName_recording_2018_28_05_15_21_39.avi
+2018-28-05 15:21:39 INFO  MonteRecorder:39 - Recording started
+2018-28-05 15:21:50 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\second_test_recording_2018_28_05_15_21_50.avi
+2018-28-05 15:21:50 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-28-05 15:21:50 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\second_test_recording_2018_28_05_15_21_50.avi
+2018-28-05 15:24:26 INFO  MonteRecorder:39 - Recording started
+2018-28-05 15:24:44 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\test_demo_recording_2018_28_05_15_24_44.avi
+2018-28-05 15:24:44 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-28-05 15:24:44 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\test_demo_recording_2018_28_05_15_24_44.avi
+2018-28-05 15:27:19 INFO  MonteRecorder:39 - Recording started
+2018-28-05 15:27:36 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\test_demo_recording_2018_28_05_15_27_36.avi
+2018-28-05 15:27:36 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-28-05 15:27:36 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\test_demo_recording_2018_28_05_15_27_36.avi
+2018-08-06 10:16:17 INFO  MonteRecorder:39 - Recording started
+2018-08-06 10:16:37 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\test_demo_recording_2018_08_06_10_16_37.avi
+2018-08-06 10:16:37 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-06 10:16:37 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\video\test_demo_recording_2018_08_06_10_16_37.avi
+2018-08-06 10:20:47 INFO  MonteRecorder:39 - Recording started
+2018-08-06 10:21:05 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\report\WEB\chrome_2018_06_08-0320\report\video\test_demo_recording_2018_08_06_10_21_05.avi
+2018-08-06 10:21:05 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-06 10:21:05 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\report\WEB\chrome_2018_06_08-0320\report\video\test_demo_recording_2018_08_06_10_21_05.avi
+2018-08-06 10:22:18 INFO  MonteRecorder:39 - Recording started
+2018-08-06 10:22:35 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\report\WEB\chrome_2018_06_08-0322\report\video\test_demo_recording_2018_08_06_10_22_35.avi
+2018-08-06 10:22:35 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-06 10:22:35 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\report\WEB\chrome_2018_06_08-0322\report\video\test_demo_recording_2018_08_06_10_22_35.avi
+2018-08-06 10:23:32 INFO  MonteRecorder:39 - Recording started
+2018-08-06 10:23:50 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\report\WEB\chrome_2018_06_08-0323\video\test_demo_recording_2018_08_06_10_23_50.avi
+2018-08-06 10:23:50 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-06 10:23:50 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\report\WEB\chrome_2018_06_08-0323\video\test_demo_recording_2018_08_06_10_23_50.avi
+2018-22-06 17:43:57 INFO  MonteRecorder:39 - Recording started
+2018-22-06 17:44:20 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\report\CLI\api_2018_06_22-1043\video\test_demo_recording_2018_22_06_17_44_20.avi
+2018-22-06 17:44:20 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-22-06 17:44:20 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\report\CLI\api_2018_06_22-1043\video\test_demo_recording_2018_22_06_17_44_20.avi
+2018-02-07 14:27:12 INFO  MonteRecorder:39 - Recording started
+2018-02-07 14:27:36 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\report\WEB\chrome_2018_07_02-0726\video\test_demo_recording_2018_02_07_14_27_36.avi
+2018-02-07 14:27:36 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-02-07 14:27:36 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\report\WEB\chrome_2018_07_02-0726\video\test_demo_recording_2018_02_07_14_27_36.avi
+2018-02-07 15:06:21 INFO  MonteRecorder:39 - Recording started
+2018-02-07 15:06:48 INFO  MonteRecorder:45 - Recording finished to D:\TA\automationFW\myinstall\Maven_auto\auto_new\report\WEB\chrome_2018_07_02-0806\video\test_demo_recording_2018_02_07_15_06_48.avi
+2018-02-07 15:06:48 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-02-07 15:06:48 INFO  RecordingUtils:26 - Video recording: D:\TA\automationFW\myinstall\Maven_auto\auto_new\report\WEB\chrome_2018_07_02-0806\video\test_demo_recording_2018_02_07_15_06_48.avi
+2018-19-07 15:03:23 INFO  RecordingUtils:26 - Video recording: 
+2018-19-07 15:09:54 INFO  RecordingUtils:26 - Video recording: 
+2018-19-07 15:10:52 INFO  MonteRecorder:39 - Recording started
+2018-19-07 15:11:13 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0810\video\test_demo_recording_2018_19_07_15_11_13.avi
+2018-19-07 15:11:13 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-19-07 15:11:13 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0810\video\test_demo_recording_2018_19_07_15_11_13.avi
+2018-19-07 15:12:15 INFO  MonteRecorder:39 - Recording started
+2018-19-07 15:12:40 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0812\video\test_demo_recording_2018_19_07_15_12_40.avi
+2018-19-07 15:12:40 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-19-07 15:12:40 INFO  RecordingUtils:30 - No video on success test
+2018-19-07 15:17:38 INFO  MonteRecorder:39 - Recording started
+2018-19-07 15:17:55 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0817\video\test_demo_recording_2018_19_07_15_17_55.avi
+2018-19-07 15:17:55 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-19-07 15:17:55 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0817\video\test_demo_recording_2018_19_07_15_17_55.avi
+2018-19-07 15:19:45 INFO  MonteRecorder:39 - Recording started
+2018-19-07 15:19:52 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0819\video\test_demo_recording_2018_19_07_15_19_52.avi
+2018-19-07 15:19:52 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-19-07 15:19:52 INFO  RecordingUtils:30 - No video on success test
+2018-19-07 15:20:16 INFO  MonteRecorder:39 - Recording started
+2018-19-07 15:20:24 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0820\video\test_demo_recording_2018_19_07_15_20_24.avi
+2018-19-07 15:20:24 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-19-07 15:20:24 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0820\video\test_demo_recording_2018_19_07_15_20_24.avi
+2018-19-07 15:35:45 INFO  MonteRecorder:39 - Recording started
+2018-19-07 15:36:00 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0835\video\test_demo_recording_2018_19_07_15_36_00.avi
+2018-19-07 15:36:00 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-19-07 15:36:00 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0835\video\test_demo_recording_2018_19_07_15_36_00.avi
+2018-19-07 15:37:53 INFO  MonteRecorder:39 - Recording started
+2018-19-07 15:38:07 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0837\video\test_demo_recording_2018_19_07_15_38_07.avi
+2018-19-07 15:38:07 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-19-07 15:38:07 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0837\video\test_demo_recording_2018_19_07_15_38_07.avi
+2018-19-07 15:38:30 INFO  MonteRecorder:39 - Recording started
+2018-19-07 15:38:39 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0838\video\test_demo_recording_2018_19_07_15_38_39.avi
+2018-19-07 15:38:39 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-19-07 15:38:39 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0838\video\test_demo_recording_2018_19_07_15_38_39.avi
+2018-19-07 15:42:13 INFO  MonteRecorder:39 - Recording started
+2018-19-07 15:42:22 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_19-0842\video\test_demo_recording_2018_19_07_15_42_22.avi
+2018-19-07 15:42:22 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-19-07 15:42:22 INFO  RecordingUtils:30 - No video on success test
+2018-20-07 11:33:23 INFO  MonteRecorder:39 - Recording started
+2018-20-07 11:33:40 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_20-0433\video\test_demo_recording_2018_20_07_11_33_40.avi
+2018-20-07 11:33:40 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-20-07 11:33:40 INFO  RecordingUtils:30 - No video on success test
+2018-20-07 11:35:43 INFO  MonteRecorder:39 - Recording started
+2018-20-07 11:35:55 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_20-0435\video\test_demo_recording_2018_20_07_11_35_55.avi
+2018-20-07 11:35:55 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-20-07 11:35:55 INFO  RecordingUtils:30 - No video on success test
+2018-20-07 11:43:01 INFO  MonteRecorder:39 - Recording started
+2018-20-07 11:43:01 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_20-0442\video\test_demo_recording_2018_20_07_11_43_01.avi
+2018-20-07 11:43:01 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-20-07 11:43:01 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_20-0442\video\test_demo_recording_2018_20_07_11_43_01.avi
+2018-20-07 14:08:14 INFO  MonteRecorder:39 - Recording started
+2018-20-07 14:08:46 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_20-0707\video\test_demo_recording_2018_20_07_14_08_46.avi
+2018-20-07 14:08:46 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-20-07 14:08:46 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_20-0707\video\test_demo_recording_2018_20_07_14_08_46.avi
+2018-20-07 16:40:23 INFO  MonteRecorder:39 - Recording started
+2018-20-07 16:40:42 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_20-0940\video\test_demo_recording_2018_20_07_16_40_42.avi
+2018-20-07 16:40:42 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-20-07 16:40:42 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_20-0940\video\test_demo_recording_2018_20_07_16_40_42.avi
+2018-20-07 16:40:42 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_20-0940\video\test_demo_recording_2018_20_07_16_40_42.avi
+2018-20-07 16:40:42 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-20-07 16:40:42 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_20-0940\video\test_demo_recording_2018_20_07_16_40_42.avi
+2018-23-07 16:28:26 INFO  MonteRecorder:39 - Recording started
+2018-23-07 16:28:45 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_23-0928\video\TestSearch_recording_2018_23_07_16_28_45.avi
+2018-23-07 16:28:45 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-23-07 16:28:45 INFO  RecordingUtils:30 - No video on success test
+2018-23-07 16:30:02 INFO  MonteRecorder:39 - Recording started
+2018-23-07 16:30:14 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_23-0929\video\TestSearch_recording_2018_23_07_16_30_14.avi
+2018-23-07 16:30:14 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-23-07 16:30:14 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_23-0929\video\TestSearch_recording_2018_23_07_16_30_14.avi
+2018-23-07 16:33:02 INFO  MonteRecorder:39 - Recording started
+2018-23-07 16:33:14 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_23-0932\video\TestSearch_recording_2018_23_07_16_33_14.avi
+2018-23-07 16:33:14 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-23-07 16:33:14 INFO  RecordingUtils:30 - No video on success test
+2018-24-07 13:49:49 INFO  MonteRecorder:39 - Recording started
+2018-24-07 13:50:06 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_24-0649\video\Compare_recording_2018_24_07_13_50_06.avi
+2018-24-07 13:50:06 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-24-07 13:50:06 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_24-0649\video\Compare_recording_2018_24_07_13_50_06.avi
+2018-24-07 13:50:43 INFO  MonteRecorder:39 - Recording started
+2018-24-07 13:51:11 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_24-0650\video\Compare_recording_2018_24_07_13_51_11.avi
+2018-24-07 13:51:11 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-24-07 13:51:11 INFO  RecordingUtils:30 - No video on success test
+2018-24-07 13:54:23 INFO  MonteRecorder:39 - Recording started
+2018-24-07 13:54:41 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_24-0654\video\Compare_recording_2018_24_07_13_54_41.avi
+2018-24-07 13:54:41 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-24-07 13:54:41 INFO  RecordingUtils:30 - No video on success test
+2018-26-07 14:33:08 INFO  MonteRecorder:39 - Recording started
+2018-26-07 14:33:24 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_26-0733\video\VeryfiedText_recording_2018_26_07_14_33_24.avi
+2018-26-07 14:33:24 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-26-07 14:33:24 INFO  RecordingUtils:30 - No video on success test
+2018-26-07 14:39:38 INFO  MonteRecorder:39 - Recording started
+2018-26-07 14:39:55 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_26-0739\video\VeryfiedText_recording_2018_26_07_14_39_55.avi
+2018-26-07 14:39:55 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-26-07 14:39:55 INFO  RecordingUtils:30 - No video on success test
+2018-26-07 14:40:40 INFO  MonteRecorder:39 - Recording started
+2018-26-07 14:42:56 INFO  MonteRecorder:39 - Recording started
+2018-26-07 14:43:15 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_26-0742\video\VeryfiedText_recording_2018_26_07_14_43_15.avi
+2018-26-07 14:43:15 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-26-07 14:43:15 INFO  RecordingUtils:30 - No video on success test
+2018-26-07 15:13:44 INFO  MonteRecorder:39 - Recording started
+2018-26-07 15:14:47 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_26-0813\video\VeryfiedText_recording_2018_26_07_15_14_47.avi
+2018-26-07 15:14:47 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-26-07 15:14:47 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 14:00:23 INFO  MonteRecorder:39 - Recording started
+2018-30-07 14:00:44 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-0700\video\Temple_Email_recording_2018_30_07_14_00_44.avi
+2018-30-07 14:00:44 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 14:00:44 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 14:09:11 INFO  MonteRecorder:39 - Recording started
+2018-30-07 14:09:39 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-0709\video\Temple_Email_recording_2018_30_07_14_09_39.avi
+2018-30-07 14:09:39 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 14:09:39 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 14:11:07 INFO  MonteRecorder:39 - Recording started
+2018-30-07 14:11:20 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-0711\video\Temple_Email_recording_2018_30_07_14_11_20.avi
+2018-30-07 14:11:21 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 14:11:21 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 14:25:16 INFO  MonteRecorder:39 - Recording started
+2018-30-07 14:25:28 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-0725\video\test_demo_recording_2018_30_07_14_25_28.avi
+2018-30-07 14:25:28 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 14:25:28 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 14:27:01 INFO  MonteRecorder:39 - Recording started
+2018-30-07 14:27:20 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-0726\video\test_demo_recording_2018_30_07_14_27_20.avi
+2018-30-07 14:27:20 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 14:27:20 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 14:30:36 INFO  MonteRecorder:39 - Recording started
+2018-30-07 14:30:49 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-0730\video\test_demo_recording_2018_30_07_14_30_49.avi
+2018-30-07 14:30:49 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 14:30:49 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 14:33:28 INFO  MonteRecorder:39 - Recording started
+2018-30-07 14:33:42 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-0733\video\test_demo_recording_2018_30_07_14_33_42.avi
+2018-30-07 14:33:42 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 14:33:42 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 17:41:54 INFO  MonteRecorder:39 - Recording started
+2018-30-07 17:42:30 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-1041\video\test_demo_recording_2018_30_07_17_42_30.avi
+2018-30-07 17:42:30 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 17:42:30 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 17:43:06 INFO  MonteRecorder:39 - Recording started
+2018-30-07 17:43:23 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-1043\video\test_demo_recording_2018_30_07_17_43_23.avi
+2018-30-07 17:43:23 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 17:43:23 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 17:46:17 INFO  MonteRecorder:39 - Recording started
+2018-30-07 17:46:32 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-1046\video\test_demo_recording_2018_30_07_17_46_32.avi
+2018-30-07 17:46:32 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 17:46:32 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 17:47:41 INFO  MonteRecorder:39 - Recording started
+2018-30-07 17:47:53 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-1047\video\Temple_Email_recording_2018_30_07_17_47_53.avi
+2018-30-07 17:47:53 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 17:47:53 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 17:52:04 INFO  MonteRecorder:39 - Recording started
+2018-30-07 17:52:40 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-1051\video\Temple_Email_recording_2018_30_07_17_52_40.avi
+2018-30-07 17:52:40 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 17:52:40 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 17:53:55 INFO  MonteRecorder:39 - Recording started
+2018-30-07 17:57:43 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-1053\video\Temple_Email_recording_2018_30_07_17_57_43.avi
+2018-30-07 17:57:43 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 17:57:43 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 18:03:21 INFO  MonteRecorder:39 - Recording started
+2018-30-07 18:03:49 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-1103\video\Temple_Email_recording_2018_30_07_18_03_49.avi
+2018-30-07 18:03:49 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 18:03:49 INFO  RecordingUtils:30 - No video on success test
+2018-30-07 18:09:53 INFO  MonteRecorder:39 - Recording started
+2018-30-07 18:13:44 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-1109\video\Temple_Email_recording_2018_30_07_18_13_44.avi
+2018-30-07 18:13:44 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-30-07 18:13:44 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_30-1109\video\Temple_Email_recording_2018_30_07_18_13_44.avi
+2018-31-07 11:18:33 INFO  RecordingUtils:26 - Video recording: 
+2018-31-07 11:22:05 INFO  MonteRecorder:39 - Recording started
+2018-31-07 11:22:24 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0422\video\TC_LoginPageBank_Guru99_recording_2018_31_07_11_22_24.avi
+2018-31-07 11:22:24 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 11:22:24 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0422\video\TC_LoginPageBank_Guru99_recording_2018_31_07_11_22_24.avi
+2018-31-07 11:31:39 INFO  MonteRecorder:39 - Recording started
+2018-31-07 11:32:21 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0431\video\TC_LoginPageBank_Guru99_recording_2018_31_07_11_32_21.avi
+2018-31-07 11:32:21 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 11:32:21 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0431\video\TC_LoginPageBank_Guru99_recording_2018_31_07_11_32_21.avi
+2018-31-07 11:40:39 INFO  MonteRecorder:39 - Recording started
+2018-31-07 11:41:10 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0440\video\TC_LoginPageBank_Guru99_recording_2018_31_07_11_41_10.avi
+2018-31-07 11:41:10 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 11:41:10 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0440\video\TC_LoginPageBank_Guru99_recording_2018_31_07_11_41_10.avi
+2018-31-07 13:34:02 INFO  MonteRecorder:39 - Recording started
+2018-31-07 13:34:38 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0633\video\TC_LoginPageBank_Guru99_recording_2018_31_07_13_34_38.avi
+2018-31-07 13:34:38 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 13:34:38 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0633\video\TC_LoginPageBank_Guru99_recording_2018_31_07_13_34_38.avi
+2018-31-07 13:37:44 INFO  MonteRecorder:39 - Recording started
+2018-31-07 13:38:36 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0637\video\TC_LoginPageBank_Guru99_recording_2018_31_07_13_38_36.avi
+2018-31-07 13:38:36 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 13:38:36 INFO  RecordingUtils:30 - No video on success test
+2018-31-07 13:40:58 INFO  MonteRecorder:39 - Recording started
+2018-31-07 13:41:34 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0640\video\TC_LoginPageBank_Guru99_recording_2018_31_07_13_41_34.avi
+2018-31-07 13:41:34 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 13:41:34 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0640\video\TC_LoginPageBank_Guru99_recording_2018_31_07_13_41_34.avi
+2018-31-07 13:42:57 INFO  MonteRecorder:39 - Recording started
+2018-31-07 13:43:35 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0642\video\TC_LoginPageBank_Guru99_recording_2018_31_07_13_43_35.avi
+2018-31-07 13:43:35 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 13:43:35 INFO  RecordingUtils:30 - No video on success test
+2018-31-07 14:02:53 INFO  MonteRecorder:39 - Recording started
+2018-31-07 14:04:41 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0702\video\TC_LoginPageBank_Guru99_recording_2018_31_07_14_04_41.avi
+2018-31-07 14:04:41 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 14:04:41 INFO  RecordingUtils:30 - No video on success test
+2018-31-07 14:25:45 INFO  MonteRecorder:39 - Recording started
+2018-31-07 14:26:33 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0725\video\TC_MultiTab_recording_2018_31_07_14_26_33.avi
+2018-31-07 14:26:33 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 14:26:33 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0725\video\TC_MultiTab_recording_2018_31_07_14_26_33.avi
+2018-31-07 14:39:06 INFO  MonteRecorder:39 - Recording started
+2018-31-07 14:39:34 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0739\video\TC_MultiTab_recording_2018_31_07_14_39_34.avi
+2018-31-07 14:39:34 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 14:39:34 INFO  RecordingUtils:30 - No video on success test
+2018-31-07 14:47:48 INFO  MonteRecorder:39 - Recording started
+2018-31-07 14:48:59 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0747\video\TC_MultiTab_recording_2018_31_07_14_48_59.avi
+2018-31-07 14:48:59 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 14:48:59 INFO  RecordingUtils:30 - No video on success test
+2018-31-07 14:49:54 INFO  MonteRecorder:39 - Recording started
+2018-31-07 14:51:04 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0749\video\TC_MultiTab_recording_2018_31_07_14_51_04.avi
+2018-31-07 14:51:04 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 14:51:04 INFO  RecordingUtils:30 - No video on success test
+2018-31-07 14:55:05 INFO  MonteRecorder:39 - Recording started
+2018-31-07 14:55:47 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0755\video\TC_MultiTab_recording_2018_31_07_14_55_47.avi
+2018-31-07 14:55:47 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 14:55:47 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0755\video\TC_MultiTab_recording_2018_31_07_14_55_47.avi
+2018-31-07 15:02:01 INFO  MonteRecorder:39 - Recording started
+2018-31-07 15:02:11 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0801\video\TC_MultiTab_recording_2018_31_07_15_02_11.avi
+2018-31-07 15:02:11 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 15:02:11 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0801\video\TC_MultiTab_recording_2018_31_07_15_02_11.avi
+2018-31-07 15:21:01 INFO  MonteRecorder:39 - Recording started
+2018-31-07 15:21:12 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0820\video\TC_MultiTab_recording_2018_31_07_15_21_12.avi
+2018-31-07 15:21:12 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 15:21:12 INFO  RecordingUtils:30 - No video on success test
+2018-31-07 15:34:27 INFO  MonteRecorder:39 - Recording started
+2018-31-07 15:34:37 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0834\video\TC_MultiTab_recording_2018_31_07_15_34_37.avi
+2018-31-07 15:34:37 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 15:34:37 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0834\video\TC_MultiTab_recording_2018_31_07_15_34_37.avi
+2018-31-07 15:38:20 INFO  MonteRecorder:39 - Recording started
+2018-31-07 15:40:09 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-0838\video\TC_MultiTab_recording_2018_31_07_15_40_09.avi
+2018-31-07 15:40:09 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 15:40:09 INFO  RecordingUtils:30 - No video on success test
+2018-31-07 17:55:35 INFO  MonteRecorder:39 - Recording started
+2018-31-07 17:55:47 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-1055\video\TC_LoginPageBank_Guru99_recording_2018_31_07_17_55_47.avi
+2018-31-07 17:55:47 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 17:55:47 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-1055\video\TC_LoginPageBank_Guru99_recording_2018_31_07_17_55_47.avi
+2018-31-07 17:58:38 INFO  MonteRecorder:39 - Recording started
+2018-31-07 17:58:57 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-1058\video\TC_LoginPageBank_Guru99_recording_2018_31_07_17_58_57.avi
+2018-31-07 17:58:57 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-31-07 17:58:57 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\WEB\chrome_2018_07_31-1058\video\TC_LoginPageBank_Guru99_recording_2018_31_07_17_58_57.avi
+2018-07-08 09:22:59 INFO  MonteRecorder:39 - Recording started
+2018-07-08 09:23:11 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0222\video\TC_MainPage_recording_2018_07_08_09_23_11.avi
+2018-07-08 09:23:11 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 09:23:11 INFO  RecordingUtils:30 - No video on success test
+2018-07-08 10:29:00 INFO  MonteRecorder:39 - Recording started
+2018-07-08 10:29:31 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0328\video\TC_MainPage_recording_2018_07_08_10_29_31.avi
+2018-07-08 10:29:31 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 10:29:31 INFO  RecordingUtils:30 - No video on success test
+2018-07-08 10:32:09 INFO  MonteRecorder:39 - Recording started
+2018-07-08 10:34:14 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0332\video\TC_MainPage_recording_2018_07_08_10_34_14.avi
+2018-07-08 10:34:14 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 10:34:14 INFO  RecordingUtils:30 - No video on success test
+2018-07-08 11:42:39 INFO  MonteRecorder:39 - Recording started
+2018-07-08 11:44:12 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0442\video\TC_MainPage_recording_2018_07_08_11_44_12.avi
+2018-07-08 11:44:12 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 11:44:12 INFO  RecordingUtils:30 - No video on success test
+2018-07-08 11:46:15 INFO  MonteRecorder:39 - Recording started
+2018-07-08 11:46:46 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0446\video\TC_MainPage_recording_2018_07_08_11_46_46.avi
+2018-07-08 11:46:46 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 11:46:46 INFO  RecordingUtils:30 - No video on success test
+2018-07-08 13:46:44 INFO  MonteRecorder:39 - Recording started
+2018-07-08 13:47:51 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0646\video\TC_MainPage_recording_2018_07_08_13_47_51.avi
+2018-07-08 13:47:51 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 13:47:51 INFO  RecordingUtils:30 - No video on success test
+2018-07-08 13:57:32 INFO  MonteRecorder:39 - Recording started
+2018-07-08 14:00:12 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0657\video\TC_MainPage_recording_2018_07_08_14_00_12.avi
+2018-07-08 14:00:12 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 14:00:12 INFO  RecordingUtils:30 - No video on success test
+2018-07-08 14:02:27 INFO  MonteRecorder:39 - Recording started
+2018-07-08 14:03:29 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0702\video\TC_MainPage_recording_2018_07_08_14_03_29.avi
+2018-07-08 14:03:29 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 14:03:29 INFO  RecordingUtils:30 - No video on success test
+2018-07-08 14:06:10 INFO  MonteRecorder:39 - Recording started
+2018-07-08 14:07:49 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0706\video\TC_MainPage_recording_2018_07_08_14_07_49.avi
+2018-07-08 14:07:49 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 14:07:49 INFO  RecordingUtils:30 - No video on success test
+2018-07-08 14:24:30 INFO  MonteRecorder:39 - Recording started
+2018-07-08 14:25:26 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0724\video\TC_MainPage_recording_2018_07_08_14_25_26.avi
+2018-07-08 14:25:26 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 14:25:26 INFO  RecordingUtils:30 - No video on success test
+2018-07-08 14:26:12 INFO  MonteRecorder:39 - Recording started
+2018-07-08 14:28:02 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0726\video\TC_MainPage_recording_2018_07_08_14_28_02.avi
+2018-07-08 14:28:02 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 14:28:02 INFO  RecordingUtils:30 - No video on success test
+2018-07-08 15:20:18 INFO  MonteRecorder:39 - Recording started
+2018-07-08 15:21:55 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0820\video\TC_MainPage_recording_2018_07_08_15_21_55.avi
+2018-07-08 15:21:55 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 15:21:55 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0820\video\TC_MainPage_recording_2018_07_08_15_21_55.avi
+2018-07-08 15:29:58 INFO  MonteRecorder:39 - Recording started
+2018-07-08 15:30:56 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0829\video\TC_MainPage_recording_2018_07_08_15_30_56.avi
+2018-07-08 15:30:56 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 15:30:56 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0829\video\TC_MainPage_recording_2018_07_08_15_30_56.avi
+2018-07-08 15:37:54 INFO  MonteRecorder:39 - Recording started
+2018-07-08 15:39:17 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0837\video\TC_MainPage_recording_2018_07_08_15_39_17.avi
+2018-07-08 15:39:17 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 15:39:17 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0837\video\TC_MainPage_recording_2018_07_08_15_39_17.avi
+2018-07-08 15:49:20 INFO  MonteRecorder:39 - Recording started
+2018-07-08 15:50:26 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0849\video\TC_MainPage_recording_2018_07_08_15_50_26.avi
+2018-07-08 15:50:26 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 15:50:26 INFO  RecordingUtils:30 - No video on success test
+2018-07-08 15:58:50 INFO  MonteRecorder:39 - Recording started
+2018-07-08 15:59:48 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0858\video\TC_MainPage_recording_2018_07_08_15_59_48.avi
+2018-07-08 15:59:48 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 15:59:48 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0858\video\TC_MainPage_recording_2018_07_08_15_59_48.avi
+2018-07-08 16:03:37 INFO  MonteRecorder:39 - Recording started
+2018-07-08 16:04:29 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0903\video\TC_MainPage_recording_2018_07_08_16_04_29.avi
+2018-07-08 16:04:29 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 16:04:29 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0903\video\TC_MainPage_recording_2018_07_08_16_04_29.avi
+2018-07-08 16:07:49 INFO  MonteRecorder:39 - Recording started
+2018-07-08 16:08:32 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0907\video\TC_MainPage_recording_2018_07_08_16_08_32.avi
+2018-07-08 16:08:32 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 16:08:32 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0907\video\TC_MainPage_recording_2018_07_08_16_08_32.avi
+2018-07-08 16:15:22 INFO  MonteRecorder:39 - Recording started
+2018-07-08 16:16:06 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0915\video\TC_MainPage_recording_2018_07_08_16_16_06.avi
+2018-07-08 16:16:06 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 16:16:06 INFO  RecordingUtils:30 - No video on success test
+2018-07-08 16:17:57 INFO  MonteRecorder:39 - Recording started
+2018-07-08 16:18:55 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0917\video\TC_MainPage_recording_2018_07_08_16_18_55.avi
+2018-07-08 16:18:55 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 16:18:55 INFO  RecordingUtils:30 - No video on success test
+2018-07-08 16:28:58 INFO  MonteRecorder:39 - Recording started
+2018-07-08 16:29:57 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0928\video\TC_MainPage_recording_2018_07_08_16_29_57.avi
+2018-07-08 16:29:57 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 16:29:57 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0928\video\TC_MainPage_recording_2018_07_08_16_29_57.avi
+2018-07-08 16:32:49 INFO  MonteRecorder:39 - Recording started
+2018-07-08 16:33:39 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0932\video\TC_MainPage_recording_2018_07_08_16_33_39.avi
+2018-07-08 16:33:39 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 16:33:39 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0932\video\TC_MainPage_recording_2018_07_08_16_33_39.avi
+2018-07-08 16:39:12 INFO  MonteRecorder:39 - Recording started
+2018-07-08 16:40:10 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0939\video\TC_MainPage_recording_2018_07_08_16_40_10.avi
+2018-07-08 16:40:10 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 16:40:10 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0939\video\TC_MainPage_recording_2018_07_08_16_40_10.avi
+2018-07-08 16:42:23 INFO  MonteRecorder:39 - Recording started
+2018-07-08 16:43:26 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0942\video\TC_MainPage_recording_2018_07_08_16_43_26.avi
+2018-07-08 16:43:26 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 16:43:26 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0942\video\TC_MainPage_recording_2018_07_08_16_43_26.avi
+2018-07-08 16:44:21 INFO  MonteRecorder:39 - Recording started
+2018-07-08 16:46:27 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0944\video\TC_MainPage_recording_2018_07_08_16_46_27.avi
+2018-07-08 16:46:27 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 16:46:27 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0944\video\TC_MainPage_recording_2018_07_08_16_46_27.avi
+2018-07-08 16:51:25 INFO  MonteRecorder:39 - Recording started
+2018-07-08 16:52:53 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0951\video\TC_MainPage_recording_2018_07_08_16_52_53.avi
+2018-07-08 16:52:53 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 16:52:53 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0951\video\TC_MainPage_recording_2018_07_08_16_52_53.avi
+2018-07-08 16:57:38 INFO  MonteRecorder:39 - Recording started
+2018-07-08 16:58:10 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0957\video\TC_MainPage_recording_2018_07_08_16_58_10.avi
+2018-07-08 16:58:10 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 16:58:10 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0957\video\TC_MainPage_recording_2018_07_08_16_58_10.avi
+2018-07-08 16:58:23 INFO  MonteRecorder:39 - Recording started
+2018-07-08 16:58:55 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0958\video\TC_MainPage_recording_2018_07_08_16_58_55.avi
+2018-07-08 16:58:55 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 16:58:55 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0958\video\TC_MainPage_recording_2018_07_08_16_58_55.avi
+2018-07-08 16:59:06 INFO  MonteRecorder:39 - Recording started
+2018-07-08 16:59:38 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0959\video\TC_MainPage_recording_2018_07_08_16_59_38.avi
+2018-07-08 16:59:38 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 16:59:38 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0959\video\TC_MainPage_recording_2018_07_08_16_59_38.avi
+2018-07-08 16:59:49 INFO  MonteRecorder:39 - Recording started
+2018-07-08 17:00:38 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0959\video\TC_MainPage_recording_2018_07_08_17_00_38.avi
+2018-07-08 17:00:38 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 17:00:38 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-0959\video\TC_MainPage_recording_2018_07_08_17_00_38.avi
+2018-07-08 17:01:58 INFO  MonteRecorder:39 - Recording started
+2018-07-08 17:02:28 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-1001\video\TC_MainPage_recording_2018_07_08_17_02_28.avi
+2018-07-08 17:02:28 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 17:02:28 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-1001\video\TC_MainPage_recording_2018_07_08_17_02_28.avi
+2018-07-08 17:06:25 INFO  MonteRecorder:39 - Recording started
+2018-07-08 17:06:37 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-1006\video\TC_MainPage_recording_2018_07_08_17_06_37.avi
+2018-07-08 17:06:37 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 17:06:37 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-1006\video\TC_MainPage_recording_2018_07_08_17_06_37.avi
+2018-07-08 17:55:38 INFO  MonteRecorder:39 - Recording started
+2018-07-08 17:56:47 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-1055\video\TC_MainPage_recording_2018_07_08_17_56_47.avi
+2018-07-08 17:56:47 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 17:56:47 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-1055\video\TC_MainPage_recording_2018_07_08_17_56_47.avi
+2018-07-08 17:57:51 INFO  MonteRecorder:39 - Recording started
+2018-07-08 18:01:28 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-1057\video\TC_MainPage_recording_2018_07_08_18_01_28.avi
+2018-07-08 18:01:28 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 18:01:28 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-1057\video\TC_MainPage_recording_2018_07_08_18_01_28.avi
+2018-07-08 18:01:28 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-1057\video\TC_MainPage_recording_2018_07_08_18_01_28.avi
+2018-07-08 18:01:28 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 18:01:28 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-1057\video\TC_MainPage_recording_2018_07_08_18_01_28.avi
+2018-07-08 18:01:48 INFO  MonteRecorder:39 - Recording started
+2018-07-08 18:03:21 INFO  MonteRecorder:45 - Recording finished to D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-1101\video\TC_MainPage_recording_2018_07_08_18_03_21.avi
+2018-07-08 18:03:21 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-07-08 18:03:21 INFO  RecordingUtils:26 - Video recording: D:\Works\Impelus\Impelus_DC16\Impelus_DC16\auto_new\report\SOLVERS\chrome_2018_08_07-1101\video\TC_MainPage_recording_2018_07_08_18_03_21.avi
+2018-08-08 11:13:30 INFO  MonteRecorder:39 - Recording started
+2018-08-08 11:17:38 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0413\video\TC_MainPage_recording_2018_08_08_11_17_38.avi
+2018-08-08 11:17:38 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 11:17:38 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0413\video\TC_MainPage_recording_2018_08_08_11_17_38.avi
+2018-08-08 11:19:20 INFO  MonteRecorder:39 - Recording started
+2018-08-08 11:22:13 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0419\video\TC_MainPage_recording_2018_08_08_11_22_13.avi
+2018-08-08 11:22:13 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 11:22:13 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0419\video\TC_MainPage_recording_2018_08_08_11_22_13.avi
+2018-08-08 11:37:09 INFO  MonteRecorder:39 - Recording started
+2018-08-08 11:41:24 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0437\video\TC_MainPage_recording_2018_08_08_11_41_24.avi
+2018-08-08 11:41:24 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 11:41:24 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0437\video\TC_MainPage_recording_2018_08_08_11_41_24.avi
+2018-08-08 11:41:24 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0437\video\TC_MainPage_recording_2018_08_08_11_41_24.avi
+2018-08-08 11:41:24 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 11:41:24 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0437\video\TC_MainPage_recording_2018_08_08_11_41_24.avi
+2018-08-08 13:44:50 INFO  MonteRecorder:39 - Recording started
+2018-08-08 13:50:43 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0644\video\TC_MainPage_recording_2018_08_08_13_50_43.avi
+2018-08-08 13:50:43 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 13:50:43 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0644\video\TC_MainPage_recording_2018_08_08_13_50_43.avi
+2018-08-08 14:05:26 INFO  MonteRecorder:39 - Recording started
+2018-08-08 14:11:31 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0705\video\TC_MainPage_recording_2018_08_08_14_11_31.avi
+2018-08-08 14:11:31 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 14:11:31 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0705\video\TC_MainPage_recording_2018_08_08_14_11_31.avi
+2018-08-08 16:25:01 INFO  MonteRecorder:39 - Recording started
+2018-08-08 16:30:08 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0924\video\TC_Insurance_recording_2018_08_08_16_30_08.avi
+2018-08-08 16:30:08 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 16:30:08 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0924\video\TC_Insurance_recording_2018_08_08_16_30_08.avi
+2018-08-08 16:30:57 INFO  MonteRecorder:39 - Recording started
+2018-08-08 16:34:39 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0930\video\TC_Insurance_recording_2018_08_08_16_34_39.avi
+2018-08-08 16:34:39 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 16:34:39 INFO  RecordingUtils:30 - No video on success test
+2018-08-08 16:35:11 INFO  MonteRecorder:39 - Recording started
+2018-08-08 16:38:07 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-0935\video\TC_Insurance_recording_2018_08_08_16_38_07.avi
+2018-08-08 16:38:07 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 16:38:07 INFO  RecordingUtils:30 - No video on success test
+2018-08-08 17:13:35 INFO  MonteRecorder:39 - Recording started
+2018-08-08 17:15:07 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1013\video\TC_Insurance_recording_2018_08_08_17_15_07.avi
+2018-08-08 17:15:07 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 17:15:07 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1013\video\TC_Insurance_recording_2018_08_08_17_15_07.avi
+2018-08-08 17:16:16 INFO  MonteRecorder:39 - Recording started
+2018-08-08 17:17:35 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1016\video\TC_Insurance_recording_2018_08_08_17_17_35.avi
+2018-08-08 17:17:35 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 17:17:35 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1016\video\TC_Insurance_recording_2018_08_08_17_17_35.avi
+2018-08-08 17:17:41 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1016\video\TC_Insurance_recording_2018_08_08_17_17_41.avi
+2018-08-08 17:17:41 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 17:17:41 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1016\video\TC_Insurance_recording_2018_08_08_17_17_41.avi
+2018-08-08 17:18:50 INFO  MonteRecorder:39 - Recording started
+2018-08-08 17:20:27 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1018\video\TC_Insurance_recording_2018_08_08_17_20_27.avi
+2018-08-08 17:20:27 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 17:20:27 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1018\video\TC_Insurance_recording_2018_08_08_17_20_27.avi
+2018-08-08 17:20:27 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1018\video\TC_Insurance_recording_2018_08_08_17_20_27.avi
+2018-08-08 17:20:27 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 17:20:27 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1018\video\TC_Insurance_recording_2018_08_08_17_20_27.avi
+2018-08-08 17:20:38 INFO  MonteRecorder:39 - Recording started
+2018-08-08 17:21:45 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1020\video\TC_Insurance_recording_2018_08_08_17_21_45.avi
+2018-08-08 17:21:45 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 17:21:45 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1020\video\TC_Insurance_recording_2018_08_08_17_21_45.avi
+2018-08-08 17:21:45 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1020\video\TC_Insurance_recording_2018_08_08_17_21_45.avi
+2018-08-08 17:21:45 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 17:21:45 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1020\video\TC_Insurance_recording_2018_08_08_17_21_45.avi
+2018-08-08 17:24:11 INFO  MonteRecorder:39 - Recording started
+2018-08-08 17:24:59 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1024\video\TC_Insurance_recording_2018_08_08_17_24_59.avi
+2018-08-08 17:24:59 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 17:24:59 INFO  RecordingUtils:30 - No video on success test
+2018-08-08 17:28:54 INFO  MonteRecorder:39 - Recording started
+2018-08-08 17:34:27 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1028\video\TC_Insurance_recording_2018_08_08_17_34_27.avi
+2018-08-08 17:34:27 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 17:34:27 INFO  RecordingUtils:30 - No video on success test
+2018-08-08 17:40:27 INFO  MonteRecorder:39 - Recording started
+2018-08-08 17:46:29 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1040\video\TC_Insurance_recording_2018_08_08_17_46_29.avi
+2018-08-08 17:46:29 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 17:46:29 INFO  RecordingUtils:30 - No video on success test
+2018-08-08 17:49:58 INFO  MonteRecorder:39 - Recording started
+2018-08-08 17:52:19 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1049\video\TC_Insurance_recording_2018_08_08_17_52_19.avi
+2018-08-08 17:52:19 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 17:52:19 INFO  RecordingUtils:30 - No video on success test
+2018-08-08 17:57:33 INFO  MonteRecorder:39 - Recording started
+2018-08-08 18:00:48 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1057\video\TC_Insurance_recording_2018_08_08_18_00_48.avi
+2018-08-08 18:00:48 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 18:00:48 INFO  RecordingUtils:30 - No video on success test
+2018-08-08 18:02:39 INFO  MonteRecorder:39 - Recording started
+2018-08-08 18:04:04 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1102\video\TC_Insurance_recording_2018_08_08_18_04_04.avi
+2018-08-08 18:04:04 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 18:04:04 INFO  RecordingUtils:30 - No video on success test
+2018-08-08 18:19:26 INFO  MonteRecorder:39 - Recording started
+2018-08-08 18:20:54 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1119\video\TC_Insurance_recording_2018_08_08_18_20_54.avi
+2018-08-08 18:20:54 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-08-08 18:20:54 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_08-1119\video\TC_Insurance_recording_2018_08_08_18_20_54.avi
+2018-09-08 17:35:47 INFO  MonteRecorder:39 - Recording started
+2018-09-08 17:38:44 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1035\video\TC_Insurance_recording_2018_09_08_17_38_44.avi
+2018-09-08 17:38:44 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-09-08 17:38:44 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1035\video\TC_Insurance_recording_2018_09_08_17_38_44.avi
+2018-09-08 17:41:02 INFO  MonteRecorder:39 - Recording started
+2018-09-08 17:41:36 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1040\video\TC_Insurance_recording_2018_09_08_17_41_36.avi
+2018-09-08 17:41:36 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-09-08 17:41:36 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1040\video\TC_Insurance_recording_2018_09_08_17_41_36.avi
+2018-09-08 17:43:52 INFO  MonteRecorder:39 - Recording started
+2018-09-08 17:44:19 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1043\video\TC_Insurance_recording_2018_09_08_17_44_19.avi
+2018-09-08 17:44:19 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-09-08 17:44:19 INFO  RecordingUtils:30 - No video on success test
+2018-09-08 17:44:31 INFO  MonteRecorder:39 - Recording started
+2018-09-08 17:45:03 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1044\video\TC_Insurance_recording_2018_09_08_17_45_03.avi
+2018-09-08 17:45:03 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-09-08 17:45:03 INFO  RecordingUtils:30 - No video on success test
+2018-09-08 17:46:46 INFO  MonteRecorder:39 - Recording started
+2018-09-08 17:47:19 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1046\video\TC_Insurance_recording_2018_09_08_17_47_19.avi
+2018-09-08 17:47:19 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-09-08 17:47:19 INFO  RecordingUtils:30 - No video on success test
+2018-09-08 17:50:06 INFO  MonteRecorder:39 - Recording started
+2018-09-08 17:50:38 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1050\video\TC_Insurance_recording_2018_09_08_17_50_38.avi
+2018-09-08 17:50:38 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-09-08 17:50:38 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1050\video\TC_Insurance_recording_2018_09_08_17_50_38.avi
+2018-09-08 17:52:34 INFO  MonteRecorder:39 - Recording started
+2018-09-08 17:53:06 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1052\video\TC_Insurance_recording_2018_09_08_17_53_06.avi
+2018-09-08 17:53:06 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-09-08 17:53:06 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1052\video\TC_Insurance_recording_2018_09_08_17_53_06.avi
+2018-09-08 17:53:33 INFO  MonteRecorder:39 - Recording started
+2018-09-08 17:54:16 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1053\video\TC_Insurance_recording_2018_09_08_17_54_16.avi
+2018-09-08 17:54:16 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-09-08 17:54:16 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1053\video\TC_Insurance_recording_2018_09_08_17_54_16.avi
+2018-09-08 17:57:00 INFO  MonteRecorder:39 - Recording started
+2018-09-08 17:58:57 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1056\video\TC_Insurance_recording_2018_09_08_17_58_57.avi
+2018-09-08 17:58:57 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-09-08 17:58:57 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1056\video\TC_Insurance_recording_2018_09_08_17_58_57.avi
+2018-09-08 18:14:08 INFO  MonteRecorder:39 - Recording started
+2018-09-08 18:16:06 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_09-1114\video\TC_Insurance_recording_2018_09_08_18_16_06.avi
+2018-09-08 18:16:06 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-09-08 18:16:06 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 09:21:29 INFO  MonteRecorder:39 - Recording started
+2018-10-08 09:22:07 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0221\video\TC_Insurance_recording_2018_10_08_09_22_07.avi
+2018-10-08 09:22:07 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 09:22:07 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0221\video\TC_Insurance_recording_2018_10_08_09_22_07.avi
+2018-10-08 09:23:52 INFO  MonteRecorder:39 - Recording started
+2018-10-08 09:24:25 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0223\video\TC_Insurance_recording_2018_10_08_09_24_25.avi
+2018-10-08 09:24:25 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 09:24:25 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 09:26:44 INFO  MonteRecorder:39 - Recording started
+2018-10-08 09:27:16 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0226\video\TC_Insurance_recording_2018_10_08_09_27_16.avi
+2018-10-08 09:27:16 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 09:27:16 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 09:27:50 INFO  MonteRecorder:39 - Recording started
+2018-10-08 09:28:25 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0227\video\TC_Insurance_recording_2018_10_08_09_28_25.avi
+2018-10-08 09:28:25 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 09:28:25 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 09:30:20 INFO  MonteRecorder:39 - Recording started
+2018-10-08 09:30:56 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0230\video\TC_Insurance_recording_2018_10_08_09_30_56.avi
+2018-10-08 09:30:56 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 09:30:56 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 09:33:30 INFO  MonteRecorder:39 - Recording started
+2018-10-08 09:34:18 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0233\video\TC_Insurance_recording_2018_10_08_09_34_18.avi
+2018-10-08 09:34:18 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 09:34:18 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0233\video\TC_Insurance_recording_2018_10_08_09_34_18.avi
+2018-10-08 09:37:35 INFO  MonteRecorder:39 - Recording started
+2018-10-08 09:38:50 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0237\video\TC_Insurance_recording_2018_10_08_09_38_50.avi
+2018-10-08 09:38:50 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 09:38:50 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0237\video\TC_Insurance_recording_2018_10_08_09_38_50.avi
+2018-10-08 09:42:52 INFO  MonteRecorder:39 - Recording started
+2018-10-08 09:46:31 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0242\video\TC_Insurance_recording_2018_10_08_09_46_31.avi
+2018-10-08 09:46:31 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 09:46:31 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 09:47:07 INFO  MonteRecorder:39 - Recording started
+2018-10-08 09:50:01 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0247\video\TC_Insurance_recording_2018_10_08_09_50_01.avi
+2018-10-08 09:50:01 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 09:50:01 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 09:50:21 INFO  MonteRecorder:39 - Recording started
+2018-10-08 09:55:42 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0250\video\TC_Insurance_recording_2018_10_08_09_55_42.avi
+2018-10-08 09:55:42 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 09:55:42 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 10:06:29 INFO  MonteRecorder:39 - Recording started
+2018-10-08 10:07:05 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0306\video\TC_Insurance_recording_2018_10_08_10_07_05.avi
+2018-10-08 10:07:05 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 10:07:05 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0306\video\TC_Insurance_recording_2018_10_08_10_07_05.avi
+2018-10-08 10:09:29 INFO  MonteRecorder:39 - Recording started
+2018-10-08 10:14:33 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0309\video\TC_Insurance_recording_2018_10_08_10_14_33.avi
+2018-10-08 10:14:33 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 10:14:33 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0309\video\TC_Insurance_recording_2018_10_08_10_14_33.avi
+2018-10-08 10:58:47 INFO  MonteRecorder:39 - Recording started
+2018-10-08 11:03:51 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0358\video\TC_Insurance_recording_2018_10_08_11_03_51.avi
+2018-10-08 11:03:51 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 11:03:51 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0358\video\TC_Insurance_recording_2018_10_08_11_03_51.avi
+2018-10-08 11:05:00 INFO  MonteRecorder:39 - Recording started
+2018-10-08 11:10:05 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0404\video\TC_Insurance_recording_2018_10_08_11_10_05.avi
+2018-10-08 11:10:05 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 11:10:05 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0404\video\TC_Insurance_recording_2018_10_08_11_10_05.avi
+2018-10-08 11:13:27 INFO  MonteRecorder:39 - Recording started
+2018-10-08 11:21:10 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0413\video\TC_Insurance_recording_2018_10_08_11_21_10.avi
+2018-10-08 11:21:10 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 11:21:10 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0413\video\TC_Insurance_recording_2018_10_08_11_21_10.avi
+2018-10-08 11:27:29 INFO  MonteRecorder:39 - Recording started
+2018-10-08 11:31:31 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0427\video\TC_Insurance_recording_2018_10_08_11_31_31.avi
+2018-10-08 11:31:31 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 11:31:31 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 13:35:55 INFO  MonteRecorder:39 - Recording started
+2018-10-08 13:36:39 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0635\video\TC_Insurance_recording_2018_10_08_13_36_39.avi
+2018-10-08 13:36:39 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 13:36:39 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 14:33:43 INFO  MonteRecorder:39 - Recording started
+2018-10-08 14:34:56 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0733\video\TC_Insurance_recording_2018_10_08_14_34_56.avi
+2018-10-08 14:34:56 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 14:34:56 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 14:55:27 INFO  MonteRecorder:39 - Recording started
+2018-10-08 14:58:55 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0755\video\TC_Insurance_recording_2018_10_08_14_58_55.avi
+2018-10-08 14:58:55 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 14:58:55 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 15:14:20 INFO  MonteRecorder:39 - Recording started
+2018-10-08 15:17:56 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0814\video\TC_Insurance_recording_2018_10_08_15_17_56.avi
+2018-10-08 15:17:56 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 15:17:56 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 15:19:00 INFO  MonteRecorder:39 - Recording started
+2018-10-08 15:19:36 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0818\video\TC_Insurance_recording_2018_10_08_15_19_36.avi
+2018-10-08 15:19:36 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 15:19:36 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 15:20:59 INFO  MonteRecorder:39 - Recording started
+2018-10-08 15:21:24 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0820\video\TC_Insurance_recording_2018_10_08_15_21_24.avi
+2018-10-08 15:21:24 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 15:21:24 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 15:24:30 INFO  MonteRecorder:39 - Recording started
+2018-10-08 15:24:53 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0824\video\TC_Insurance_recording_2018_10_08_15_24_53.avi
+2018-10-08 15:24:53 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 15:24:53 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 15:37:32 INFO  MonteRecorder:39 - Recording started
+2018-10-08 15:38:00 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0837\video\TC_Insurance_recording_2018_10_08_15_38_00.avi
+2018-10-08 15:38:00 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 15:38:00 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0837\video\TC_Insurance_recording_2018_10_08_15_38_00.avi
+2018-10-08 15:41:28 INFO  MonteRecorder:39 - Recording started
+2018-10-08 15:41:50 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0841\video\TC_Insurance_recording_2018_10_08_15_41_50.avi
+2018-10-08 15:41:50 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 15:41:50 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0841\video\TC_Insurance_recording_2018_10_08_15_41_50.avi
+2018-10-08 15:43:33 INFO  MonteRecorder:39 - Recording started
+2018-10-08 15:43:55 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0843\video\TC_Insurance_recording_2018_10_08_15_43_55.avi
+2018-10-08 15:43:55 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 15:43:55 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0843\video\TC_Insurance_recording_2018_10_08_15_43_55.avi
+2018-10-08 15:44:25 INFO  MonteRecorder:39 - Recording started
+2018-10-08 15:44:48 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0844\video\TC_Insurance_recording_2018_10_08_15_44_48.avi
+2018-10-08 15:44:48 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 15:44:48 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0844\video\TC_Insurance_recording_2018_10_08_15_44_48.avi
+2018-10-08 15:50:12 INFO  MonteRecorder:39 - Recording started
+2018-10-08 15:50:51 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0850\video\TC_Insurance_recording_2018_10_08_15_50_51.avi
+2018-10-08 15:50:51 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 15:50:51 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 16:05:35 INFO  MonteRecorder:39 - Recording started
+2018-10-08 16:06:09 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0905\video\TC_Insurance_recording_2018_10_08_16_06_09.avi
+2018-10-08 16:06:09 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 16:06:09 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 16:20:33 INFO  MonteRecorder:39 - Recording started
+2018-10-08 16:20:47 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0920\video\TC_Insurance_recording_2018_10_08_16_20_47.avi
+2018-10-08 16:20:47 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 16:20:47 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0920\video\TC_Insurance_recording_2018_10_08_16_20_47.avi
+2018-10-08 16:23:46 INFO  MonteRecorder:39 - Recording started
+2018-10-08 16:23:58 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0923\video\TC_Insurance_recording_2018_10_08_16_23_58.avi
+2018-10-08 16:23:58 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 16:23:58 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0923\video\TC_Insurance_recording_2018_10_08_16_23_58.avi
+2018-10-08 16:26:11 INFO  MonteRecorder:39 - Recording started
+2018-10-08 16:26:22 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0926\video\TC_Insurance_recording_2018_10_08_16_26_22.avi
+2018-10-08 16:26:22 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 16:26:22 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0926\video\TC_Insurance_recording_2018_10_08_16_26_22.avi
+2018-10-08 16:28:28 INFO  MonteRecorder:39 - Recording started
+2018-10-08 16:28:41 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0928\video\TC_Insurance_recording_2018_10_08_16_28_41.avi
+2018-10-08 16:28:41 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 16:28:41 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0928\video\TC_Insurance_recording_2018_10_08_16_28_41.avi
+2018-10-08 16:30:56 INFO  MonteRecorder:39 - Recording started
+2018-10-08 16:31:09 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0930\video\TC_Insurance_recording_2018_10_08_16_31_09.avi
+2018-10-08 16:31:09 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 16:31:09 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0930\video\TC_Insurance_recording_2018_10_08_16_31_09.avi
+2018-10-08 16:31:28 INFO  MonteRecorder:39 - Recording started
+2018-10-08 16:31:45 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0931\video\TC_Insurance_recording_2018_10_08_16_31_45.avi
+2018-10-08 16:31:45 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 16:31:45 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 16:32:30 INFO  MonteRecorder:39 - Recording started
+2018-10-08 16:33:06 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0932\video\TC_Insurance_recording_2018_10_08_16_33_06.avi
+2018-10-08 16:33:06 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 16:33:06 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0932\video\TC_Insurance_recording_2018_10_08_16_33_06.avi
+2018-10-08 16:35:38 INFO  MonteRecorder:39 - Recording started
+2018-10-08 16:35:57 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0935\video\TC_Insurance_recording_2018_10_08_16_35_57.avi
+2018-10-08 16:35:57 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 16:35:57 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 16:36:16 INFO  MonteRecorder:39 - Recording started
+2018-10-08 16:36:34 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0936\video\TC_Insurance_recording_2018_10_08_16_36_34.avi
+2018-10-08 16:36:34 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 16:36:34 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 16:36:53 INFO  MonteRecorder:39 - Recording started
+2018-10-08 16:37:08 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0936\video\TC_Insurance_recording_2018_10_08_16_37_08.avi
+2018-10-08 16:37:08 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 16:37:08 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0936\video\TC_Insurance_recording_2018_10_08_16_37_08.avi
+2018-10-08 16:37:51 INFO  MonteRecorder:39 - Recording started
+2018-10-08 16:38:05 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0937\video\TC_Insurance_recording_2018_10_08_16_38_05.avi
+2018-10-08 16:38:05 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 16:38:05 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0937\video\TC_Insurance_recording_2018_10_08_16_38_05.avi
+2018-10-08 16:42:49 INFO  MonteRecorder:39 - Recording started
+2018-10-08 16:43:16 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0942\video\TC_Insurance_recording_2018_10_08_16_43_16.avi
+2018-10-08 16:43:16 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 16:43:16 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0942\video\TC_Insurance_recording_2018_10_08_16_43_16.avi
+2018-10-08 16:59:37 INFO  MonteRecorder:39 - Recording started
+2018-10-08 16:59:52 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0959\video\TC_Insurance_recording_2018_10_08_16_59_52.avi
+2018-10-08 16:59:52 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 16:59:52 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-0959\video\TC_Insurance_recording_2018_10_08_16_59_52.avi
+2018-10-08 17:00:25 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:00:36 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1000\video\TC_Insurance_recording_2018_10_08_17_00_36.avi
+2018-10-08 17:00:36 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:00:36 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1000\video\TC_Insurance_recording_2018_10_08_17_00_36.avi
+2018-10-08 17:03:55 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:04:19 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1003\video\TC_Insurance_recording_2018_10_08_17_04_19.avi
+2018-10-08 17:04:19 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:04:19 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 17:13:53 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:14:07 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1013\video\TC_Insurance_recording_2018_10_08_17_14_07.avi
+2018-10-08 17:14:07 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:14:07 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1013\video\TC_Insurance_recording_2018_10_08_17_14_07.avi
+2018-10-08 17:16:23 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:16:38 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1016\video\TC_Insurance_recording_2018_10_08_17_16_38.avi
+2018-10-08 17:16:38 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:16:38 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 17:17:56 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:18:11 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1017\video\TC_Insurance_recording_2018_10_08_17_18_11.avi
+2018-10-08 17:18:11 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:18:11 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 17:18:39 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:18:54 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1018\video\TC_Insurance_recording_2018_10_08_17_18_54.avi
+2018-10-08 17:18:54 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:18:54 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 17:20:51 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:21:03 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1020\video\TC_Insurance_recording_2018_10_08_17_21_03.avi
+2018-10-08 17:21:03 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:21:03 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 17:21:57 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:22:10 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1021\video\TC_Insurance_recording_2018_10_08_17_22_10.avi
+2018-10-08 17:22:10 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:22:10 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1021\video\TC_Insurance_recording_2018_10_08_17_22_10.avi
+2018-10-08 17:26:30 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:26:43 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1026\video\TC_Insurance_recording_2018_10_08_17_26_43.avi
+2018-10-08 17:26:43 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:26:43 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1026\video\TC_Insurance_recording_2018_10_08_17_26_43.avi
+2018-10-08 17:32:38 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:32:49 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1032\video\TC_Insurance_recording_2018_10_08_17_32_49.avi
+2018-10-08 17:32:49 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:32:49 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1032\video\TC_Insurance_recording_2018_10_08_17_32_49.avi
+2018-10-08 17:44:18 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:44:31 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1044\video\TC_Insurance_recording_2018_10_08_17_44_31.avi
+2018-10-08 17:44:31 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:44:31 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1044\video\TC_Insurance_recording_2018_10_08_17_44_31.avi
+2018-10-08 17:47:29 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:47:40 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1047\video\TC_Insurance_recording_2018_10_08_17_47_40.avi
+2018-10-08 17:47:40 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:47:40 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1047\video\TC_Insurance_recording_2018_10_08_17_47_40.avi
+2018-10-08 17:48:48 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:49:04 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1048\video\TC_Insurance_recording_2018_10_08_17_49_04.avi
+2018-10-08 17:49:04 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:49:04 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1048\video\TC_Insurance_recording_2018_10_08_17_49_04.avi
+2018-10-08 17:51:32 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:51:33 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1051\video\TC_Insurance_recording_2018_10_08_17_51_33.avi
+2018-10-08 17:51:33 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:51:33 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1051\video\TC_Insurance_recording_2018_10_08_17_51_33.avi
+2018-10-08 17:52:24 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:52:37 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1052\video\TC_Insurance_recording_2018_10_08_17_52_37.avi
+2018-10-08 17:52:37 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:52:37 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1052\video\TC_Insurance_recording_2018_10_08_17_52_37.avi
+2018-10-08 17:56:13 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:57:16 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1056\video\TC_Insurance_recording_2018_10_08_17_57_16.avi
+2018-10-08 17:57:16 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:57:16 INFO  RecordingUtils:26 - Video recording: D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1056\video\TC_Insurance_recording_2018_10_08_17_57_16.avi
+2018-10-08 17:58:22 INFO  MonteRecorder:39 - Recording started
+2018-10-08 17:58:42 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1058\video\TC_Insurance_recording_2018_10_08_17_58_42.avi
+2018-10-08 17:58:42 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 17:58:42 INFO  RecordingUtils:30 - No video on success test
+2018-10-08 17:59:49 INFO  MonteRecorder:39 - Recording started
+2018-10-08 18:00:16 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_10-1059\video\TC_Insurance_recording_2018_10_08_18_00_16.avi
+2018-10-08 18:00:16 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-10-08 18:00:16 INFO  RecordingUtils:30 - No video on success test
+2018-13-08 17:40:17 INFO  MonteRecorder:39 - Recording started
+2018-13-08 17:41:56 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_13-1040\video\TC_Insurance_recording_2018_13_08_17_41_56.avi
+2018-13-08 17:41:56 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-13-08 17:41:56 INFO  RecordingUtils:30 - No video on success test
+2018-15-08 18:03:44 INFO  MonteRecorder:39 - Recording started
+2018-15-08 18:06:53 INFO  MonteRecorder:45 - Recording finished to D:\Works\solvers_au\auto_new\report\SOLVERS\chrome_2018_08_15-1103\video\TC_Insurance_recording_2018_15_08_18_06_53.avi
+2018-15-08 18:06:53 INFO  RecordingUtils:65 - No jenkins_url variable found.
+2018-15-08 18:06:53 INFO  RecordingUtils:30 - No video on success test

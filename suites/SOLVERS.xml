@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="demo suite" parallel="methods" thread-count="1" data-provider-thread-count="1">
+	<listeners>
+		<listener class-name="automationCore.TestReport"/>
+		<listener class-name="automationCore.TestCreate"/>
+	</listeners>
+	<test name="demo suite">
+		<parameter name="waitTime" value="20"/>
+
+		<parameter name="url" value="https://solvers.com.au/"/>
+		<parameter name="urlInsurance" value="https://solvers.com.au/insurance/"/>
+		<parameter name="urlLifteInsurance" value="https://solvers.com.au/insurance/life-insurance/"/>
+		<parameter name="urlfunerallInsurance" value="https://solvers.com.au/insurance/funeral-insurance/"/>
+		<parameter name="urlessential-life" value="https://solvers.com.au/insurance/life-insurance/essential-life/"/>
+		<parameter name="ursmart-investment" value="https://solvers.com.au/is-life-insurance-a-smart-investment/"/>
+		
+		
+
+		
+		
+		<parameter name="urlCareer" value="https://solvers.com.au/career/"/>
+		<parameter name="urlProperty" value="https://solvers.com.au/property/"/>
+		<parameter name="urlArticles" value="https://solvers.com.au/blog/"/>
+		<classes>
+			<class name= "solvers.co.au.TC_SmartInvestmentPage"></class>
+		</classes>
+	</test>
+</suite>
