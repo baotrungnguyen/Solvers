@@ -1,4 +1,4 @@
-package org.o7planning.auto_new;
+package org.o7planning.solvers;
 
 /**
  * Hello world!

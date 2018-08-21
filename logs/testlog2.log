@@ -859,3 +859,6 @@ Jun 26 16:43:22 Server68 server1.js[16266]: Server is running on 8888
 2018-08-13 17:41:54 [TestNG-test=demo suite-1] INFO  Result - Click Read the articles is: Pass
 2018-08-15 18:06:24 [TestNG-test=demo suite-1] INFO  Result - Click Get a Free Quote is: Pass
 2018-08-15 18:06:53 [TestNG-test=demo suite-1] INFO  Result - Click Get a Free Quote is: Pass
+2018-08-21 11:42:33 [TestNG-test=demo suite-1] INFO  Test Report - Created screenshot folder at D:\Github\Solvers\Solvers\report\WEB\chrome_2018_08_21-0442\screenshots
+2018-08-21 11:46:35 [TestNG-test=demo suite-1] INFO  Test Report - Created screenshot folder at D:\Github\Solvers\Solvers\report\WEB\chrome_2018_08_21-0446\screenshots
+2018-08-21 11:47:53 [TestNG-test=demo suite-1] INFO  Test Report - Created screenshot folder at D:\Github\Solvers\Solvers\report\WEB\chrome_2018_08_21-0447\screenshots

@@ -1,6 +1,8 @@
-/solvers/
-/support_group/
+/CLI/
+/RestAPI/
+/automationCore/
+/automationUtil/
 /bdd/
 /po/
-/learn/
-/learning/
+/solvers/
+/support_group/
